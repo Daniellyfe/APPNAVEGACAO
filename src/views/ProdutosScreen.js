@@ -8,7 +8,7 @@ export default function ProdutosScreen(props) {
             title='Ir para Home'
             onPress={() => props.navigation.navigate('Home')}
         />
-           <Button 
+        <Button 
             title='Ir para Sobre'
             onPress={() => props.navigation.navigate('Sobre')}
         />
